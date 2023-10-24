@@ -17,7 +17,7 @@ func main(){
 	fmt.Println("Length is: ",length)
 	readFile("../test.txt")
 }
-
+ 
 func readFile(fileName string){
 	databyte,err := ioutil.ReadFile(fileName)
 	checkNillError(err)
