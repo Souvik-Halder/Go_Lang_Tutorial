@@ -20,7 +20,7 @@ func main(){
  
 func readFile(fileName string){
 	databyte,err := ioutil.ReadFile(fileName)
-	checkNillError(err)
+	checkNillError(err) 
 	fmt.Println("Data as bytes: ",databyte)//This will print the data as bytes
 	fmt.Println("Data as string: ",string(databyte))//This will print the data as string
 
